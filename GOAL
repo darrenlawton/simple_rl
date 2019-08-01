@@ -1,5 +1,0 @@
-Starting Point:
-In AWS, I want to implement a simple RL agent (DQN) and output some form of that via http.
-
-Will implement RL agent locally first, then think next steps.
-
