@@ -1,2 +1,2 @@
-# simple_rl
-simple rl agents
+# Simple RL Agents
+Implementations of simple and various RL agents. 
