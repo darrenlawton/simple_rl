@@ -1,4 +1,5 @@
-# Reference: https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-0-q-learning-with-tables-and-neural-networks-d195264329d0
+# Reference: https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-0-q-learning-with
+# -tables-and-neural-networks-d195264329d0
 
 import numpy as np
 import gym
@@ -34,8 +35,6 @@ for i in range(n_episodes):
             print("{0} goal square reached in {1} steps." .format(i, step))
             reward_list.append(step)
             break
-
-
 
 print ("Score over time: " +  str(sum(reward_list)/n_episodes))
 print("Q Values: {} " .format(q_table))
